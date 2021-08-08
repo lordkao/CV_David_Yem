@@ -79,19 +79,23 @@ a{
     flex-direction: row;
     justify-content: center;
 }
-.gutters{
+aside{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: auto;
-    height: 100%;
-    margin: 3rem 5rem;
+    width: 30%;
+    border-right: 3px rgb(180, 180, 180) solid;
+    background-color: #f2f2f2;
+    border-radius: 3rem;
+}
+.gutters{
+    margin: 3rem 0;
+    width: 100%;
 }
 .journey{
     width: 70%;
     padding: 3rem 3rem;
-    border-left: 3px rgb(180, 180, 180) solid;
 }
 #presentation{
     display: flex;
@@ -129,6 +133,10 @@ li{
 }
 #tools{
     width: 100%;
+    padding: 0 6rem;
+}
+.tools-title{
+    padding: 0 3rem;
 }
 .tools-list{
     width: 100%;
