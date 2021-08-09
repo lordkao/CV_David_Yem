@@ -96,7 +96,7 @@ header {
   position: absolute;
   z-index: -1;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(-22px);
   right: 0;
   left: 0;
   transition: transform 0.2s, opacity 0.2s;
@@ -135,7 +135,7 @@ header {
 .actif {
   opacity: 1;
   transform: translateY(50px);
-  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s ease-out, opacity 0.3s;
 }
 
 .photo-profil {
@@ -190,10 +190,17 @@ aside {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 30%;
-  border-right: 3px #b4b4b4 solid;
+  box-shadow: 3px 3px 10px 3px #a0a0a0;
   background-color: #f2f2f2;
   border-radius: 3rem;
+  width: 85%;
+}
+@media screen and (min-width: 768px) {
+  aside {
+    box-shadow: unset;
+    border-right: 3px #b4b4b4 solid;
+    width: 30%;
+  }
 }
 
 .gutters {
@@ -202,8 +209,13 @@ aside {
 }
 
 .journey {
-  width: 70%;
-  padding: 3rem 3rem;
+  padding: 2rem 2rem;
+}
+@media screen and (min-width: 768px) {
+  .journey {
+    width: 70%;
+    padding: 3rem 3rem;
+  }
 }
 
 #presentation {
@@ -212,7 +224,12 @@ aside {
   justify-content: center;
   align-items: center;
   width: auto;
-  padding: 3rem 5rem;
+  padding: 2rem 2rem;
+}
+@media screen and (min-width: 768px) {
+  #presentation {
+    padding: 3rem 5rem;
+  }
 }
 
 .title {
@@ -251,11 +268,11 @@ li {
 }
 
 #tools {
-  width: 100%;
-  padding: 0 6rem;
+  padding-left: 6rem;
 }
 
 .tools-title {
+  text-align: center;
   padding: 0 3rem;
 }
 
