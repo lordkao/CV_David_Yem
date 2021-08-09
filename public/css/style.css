@@ -96,7 +96,7 @@ header {
   position: absolute;
   z-index: -1;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(-22px);
   right: 0;
   left: 0;
   transition: transform 0.2s, opacity 0.2s;
@@ -135,7 +135,7 @@ header {
 .actif {
   opacity: 1;
   transform: translateY(50px);
-  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s ease-out, opacity 0.3s;
 }
 
 .photo-profil {
@@ -209,8 +209,13 @@ aside {
 }
 
 .journey {
-  width: 70%;
-  padding: 3rem 3rem;
+  padding: 2rem 2rem;
+}
+@media screen and (min-width: 768px) {
+  .journey {
+    width: 70%;
+    padding: 3rem 3rem;
+  }
 }
 
 #presentation {
