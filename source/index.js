@@ -12,7 +12,6 @@ class bouton{
         let item = this.photo
         bouton.addEventListener('click', function(e){
             e.preventDefault()
-            item.classList.remove('inactif')
             item.classList.add('actif')
         })
     }
@@ -22,7 +21,6 @@ class bouton{
         bouton.addEventListener('click', function(e){
             e.preventDefault()
             item.classList.remove('actif')
-            item.classList.add('inactif')
         })
     }
 }
