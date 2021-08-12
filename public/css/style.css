@@ -255,14 +255,14 @@ span {
 
 .bloc-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 1rem;
 }
 
 .bloc-list ul {
-  margin-left: 4rem;
+  padding-left: 4rem;
   width: 50%;
 }
 
@@ -271,7 +271,7 @@ li {
 }
 
 #tools {
-  padding-left: 5rem;
+  padding-left: 4rem;
 }
 
 .tools-title {
