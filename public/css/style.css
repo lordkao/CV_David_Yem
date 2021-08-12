@@ -240,6 +240,10 @@ aside {
   margin-left: 2rem;
 }
 
+.text-hobbies {
+  padding: 0 3rem;
+}
+
 span {
   color: black;
   font-weight: bold;
@@ -267,7 +271,7 @@ li {
 }
 
 #tools {
-  padding-left: 6rem;
+  padding-left: 5rem;
 }
 
 .tools-title {
@@ -277,6 +281,7 @@ li {
 
 .tools-list {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
