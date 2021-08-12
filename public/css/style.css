@@ -198,6 +198,7 @@ aside {
   aside {
     box-shadow: unset;
     border-right: 3px #b4b4b4 solid;
+    border-radius: 0 3rem 3rem 0;
     width: 30%;
   }
 }
