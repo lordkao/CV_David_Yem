@@ -28,7 +28,7 @@ body {
 }
 
 p {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 a {
@@ -233,11 +233,15 @@ aside {
 
 .title {
   color: black;
-  margin-bottom: 1rem;
+  margin: 2rem 0;
 }
 
 .text {
   margin-left: 2rem;
+}
+
+.text-hobbies {
+  padding: 0 3rem;
 }
 
 span {
@@ -251,14 +255,14 @@ span {
 
 .bloc-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 1rem;
 }
 
 .bloc-list ul {
-  margin-left: 4rem;
+  padding-left: 4rem;
   width: 50%;
 }
 
@@ -267,7 +271,7 @@ li {
 }
 
 #tools {
-  padding-left: 6rem;
+  padding-left: 4rem;
 }
 
 .tools-title {
@@ -277,6 +281,7 @@ li {
 
 .tools-list {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
