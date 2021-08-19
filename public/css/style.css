@@ -241,10 +241,6 @@ aside {
   margin-left: 2rem;
 }
 
-.text-hobbies {
-  padding: 0 3rem;
-}
-
 span {
   color: black;
   font-weight: bold;
@@ -261,10 +257,9 @@ span {
   align-items: flex-start;
   margin-bottom: 1rem;
 }
-
 .bloc-list ul {
   padding-left: 4rem;
-  width: 50%;
+  width: 70%;
 }
 
 li {
